@@ -1,0 +1,53 @@
+
+.form-container{
+   background-image: url('images/loginBack.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+    min-height: 100vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+ }
+.navbar-brand{
+    position: relative;
+    color: black;
+    left:45%;
+    font-size:45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+ .form-container form{
+    background-color: white;
+    padding:2rem;
+    width: 30rem;
+    height:30rem;
+    border-radius: 3rem;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 7px 7px 8px #414141;
+    
+ }
+ .form-container form .box{
+    width: 80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:1px solid black;
+    background-color: var(--light-bg); 
+    font-size: 1rem;
+    color:black;
+     margin:1rem 0;
+ }
+ .form-container form .box:hover {
+   
+    font-size: 1.5em;
+    
+ }
+ .registerTitle {
+   font-size:45px;
+ }
